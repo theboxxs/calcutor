@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="m3.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="c">
+        <div class="cc">
+         <input id="number1" type="number">
+         -
+         <input id="number2" type="number">
+        </div>
+     <button id="button" class="s">sned</button>
+     <di class="as">
+      <h3 id="number3"></h3>
+      <a class="aa" href="index.html">+</a>
+      <a class="aa" href="math2.html">*</a>
+      <a class="aa" href="math.html">/</a>
+     </div>
+    </div>
+
+
+    <script>
+        document.getElementById("button").addEventListener("click", function(){
+        var number1 =document.getElementById("number1").value
+        var number2 = document.getElementById("number2").value
+        
+        
+        var x = number1-number2
+        console.log(x)
+        document.getElementById("number3").innerHTML=x
+            }
+        )
+
+        
+
+
+        
+
+
+    </script>
+</body>
+</html>

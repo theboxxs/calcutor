@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input id="pp" type="text">
+    <button id="p">ok</button>
+    <h3 id="n" ></h3>
+    <script>
+        document.getElementById("p").addEventListener(
+            "click", function(){
+             var n = document.getElementById("pp").value
+            
+             console.log(n.toLocaleUpperCase())
+             var nn = n.replace("o","y")
+             console.log(nn.toLocaleUpperCase())
+             console.log(nn)
+             var nnn = nn.split("").reverse("").join("")
+             console.log(nnn)
+             document.getElementById('n').innerHTML = n +"-----"+ nn + "-----"+ nnn
+            }
+        )
+
+    </script>
+</body>
+</html>

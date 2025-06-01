@@ -1,0 +1,28 @@
+.c{
+    left: 20%;
+    right: 20%;
+    background-color: rgb(134, 194, 180);
+    
+}
+body{
+    margin: 0;
+}
+.cc{
+ text-align: center;   
+ color: #000000;
+}
+.s{
+    position: absolute;
+    left: 30%;
+    right: 30%;
+}
+.as{
+    position: absolute;
+    left:50%;
+    right: 50%;
+}
+.aa{
+    color: #000000;
+    font-size: x-large;
+    text-decoration: none;
+}
